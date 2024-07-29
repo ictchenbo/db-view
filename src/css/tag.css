@@ -1,0 +1,25 @@
+ent{
+    display: inline-block;
+    cursor: pointer;
+}
+
+ent.conf{
+    background: #f7f21c;
+}
+
+ent.auto, h3.auto{
+    /*background: #93ead7;*/
+}
+
+ent.query{
+	color: red;
+}
+
+ent.dict{
+    border-bottom: 1px dashed red;
+}
+
+ent.notag{
+    color: inherit;
+    background: inherit;
+}

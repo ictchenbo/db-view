@@ -1,0 +1,97 @@
+.list-page{
+  outline: none;
+}
+
+  .list-header{
+    padding: 10px 0 15px 12px;
+    border-bottom: 1px solid #f9f9f9;
+    border-top-right-radius: 3px;
+    border-top-left-radius: 3px;
+    height: 38px;
+  }
+
+  .list-header .left{
+    float: left;
+  }
+
+  .list-header .right{
+    float: right;
+  }
+
+
+.list{
+  outline: none;
+  padding: 0;
+  clear: both;
+}
+
+  .list .icon{
+    color: #999;
+    width: 16px;
+    height: 20px;
+    margin:0;
+  }
+
+  .icon.on{
+    color: red;
+  }
+
+  .thread-list .icon:hover{
+    color: red;
+  }
+
+  .list-item{
+    padding: 4px 8px;
+    padding-right: 2px;
+    overflow: hidden;
+    cursor: default;
+    color: #999;
+    border-left: 4px solid white;
+    border-bottom: 1px solid #f0f2f2;
+
+    clear: both;
+  }
+
+  .list-item.selected{
+    border-left-color: red;
+    background: #e6f3ff;
+  }
+
+  .list-item .subject{
+    font-size: 1.2em;
+    font-weight: bold;
+    color: black;
+    
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+  }
+
+  .list-item.read .subject{
+    font-weight: normal;
+  }
+
+  .el-icon-star-off.collect{
+    color:red;
+  }
+
+  .el-icon-star-off._collect{
+    color:red;
+  }
+
+.list-item .sub .right{
+    float: right;
+  }
+
+  .el-dropdown-link {
+    border: 1px grey;
+  }
+
+  i.tag-on{
+    color: red;
+  }
+
+  .pager{
+    background-color: transparent !important;
+  }
+
